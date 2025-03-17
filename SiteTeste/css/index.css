@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Mobile */
+@media screen and (max-width: 992px) {
+
+
+
+/* Html e body */
+html,body{
+ 
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  background-color: white;
+}
+
+/* Textos,titulos e fontes */
+
+
+
+.public-sans-titulo {
+    font-family: "Public Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    
+  }
+.public-sans-subtitulo{
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-size: 26px;
+}
+.public-sans-texto{
+  width: 80%;
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  
+}
+.public-sans-texto--bold{
+  width: 20%;
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+/* Containers */
+.container-heading{
+  
+  height: auto;
+  justify-content: center;
+  border: solid 2px white;
+  background-color: white;
+  margin-top:4%
+  
+}
+.container-texto{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+
+/* Imagens*/
+.imagemDeFundo{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%;
+  border-radius: 0px;
+  background-image: url("../images/turned-gray-laptop-computer.jpg");
+}
+
+.iconePy{
+margin-right: 20px;
+width: 35px;
+height: 35px;
+
+}
+/* Tabelas e outros items */
+.tabelaIcones{
+  width: 100%;
+
+}
+
+.redirecionar{
+  color: navy;
+  text-decoration: none;
+  
+  }
+  hr{
+    margin: 5%;
+    width: 80px;
+    border: 1.5px solid black;
+    margin-top: 1.5%;
+    margin-bottom: 10%;
+    height: 0px;
+    
+    
+  }
+
+}
+
+
+
+/* Desktop */
+
+@media screen and (min-width: 992px){
+
+
+
+/* Html e body */
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  background-color: white;
+}
+
+/* Textos,titulos e fontes */
+
+
+.public-sans-titulo {
+    font-family: "Public Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    height: 10%;
+    
+  }
+.public-sans-subtitulo{
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-size: 26px;
+}
+.public-sans-texto{
+  width: 80%;
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  
+}
+.public-sans-texto--bold{
+  width: 20%;
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+/* Containers */
+
+
+.container-heading{
+  
+  height: auto;
+  justify-content: center;
+  border: solid 2px white;
+  background-color: white;
+  margin-top:4%
+  
+}
+.container-texto{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5%;
+
+}
+/* Imagens */
+.perfil-foto{
+width: 180px;
+height: 190px;
+border-radius: 10px;
+
+
+}
+.iconePy{
+
+  width: 35px;
+  height: 35px;
+  
+  }
+
+.imagemDeFundo{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%;
+  border-radius: 0px;
+  background-image: url("../images/turned-gray-laptop-computer.jpg");
+}
+
+/* Tabelas e outros items */
+.redirecionar{
+color: navy;
+text-decoration: none;
+
+}
+
+.tabelaIcones{
+  width: 35%;
+  margin-left: 35%;
+}
+
+
+hr{
+  margin: 5%;
+  width: 80px;
+  border: 1.5px solid black;
+  margin-top: 1.5%;
+  
+  height: 0px;
+  
+  
+}
+
+
+
+}
