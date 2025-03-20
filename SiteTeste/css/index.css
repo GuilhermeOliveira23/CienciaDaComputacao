@@ -78,6 +78,14 @@ html,body{
 
 
 /* Imagens*/
+
+.perfil-foto{
+  width: 180px;
+  height: 190px;
+  border-radius: 10px;
+  
+  
+  }
 .imagemDeFundo{
   
   background-size: cover;
