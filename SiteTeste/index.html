@@ -12,27 +12,34 @@
 </head>
 <body>
     
-<!-- <header>
 
-</header> -->
 
-    <div class="imagemDeFundo"><div class="blur"><h1 class="meu-nome">Guilherme Gozzi Oliveira</h1></div></div>
-
+    <div class="imagemDeFundo">
+        <!-- Fiz essa div para adicionar um desfoco pelo CSS -->
+        <div class="blur">
+            <h1 class="meu-nome">Guilherme Gozzi Oliveira</h1>
+        </div>
+    </div>
+    <!-- Apenas um teste -->
     <script src="./js/medicinedrug.js"></script>
-    
+
+    <!-- Container para ajustar o titulo  -->
     <div class="container-heading">
-        
+        <!-- Uso o <hr> para criar dimensão ao título-->
         <h1 class="public-sans-titulo"><hr>Bem vindo à minha pagina<hr></h1>
         
     </div>
-
+<!-- Container que ajusta a minha imagem(reutilizei o container texto) -->
     <div class="container-texto">
+        <!-- minha foto -->
         <img class="perfil-foto" src="./images/fotominha.jpeg" alt="foto de perfil">
     </div>
 
     <h2 class="public-sans-subtitulo">Sobre mim</h2>
     <br>
+
     <div class="container-texto">
+        <!-- utilizo o  rel noopener e noreferrer no anchor por questões de segurança, também uso o target _blank para abrir o site em outra página -->
         <p class="public-sans-texto">Meu nome é Guilherme, tenho 18 anos e sou atual universitário da <a rel="noopener noreferrer" target="_blank" href="https://www.unicid.edu.br/?doing_wp_cron=1742657039.8316340446472167968750">UNICID</a> na área de Ciência da Computação, estou em busca do meu primeiro emprego como estagiário/junior em programação, tenho o objetivo de me especializar em back-end e de crescer junto com a empresa, ser um impacto positivo para a prosperidade da mesma. Gosto muito de aprender coisas novas e melhorar mais as minhas habilidades, para sempre ter um desempenho melhor do que o da última vez.
     </div>
 
@@ -44,7 +51,7 @@
 
 
 
-
+        <!-- Tabela onde abrigo minhas competências -->
         <table class="tabelaIcones" style="margin-bottom: 10%;" >
             <tbody>
             <tr>
@@ -69,18 +76,18 @@
                 <th><img class="iconePy" src="./images/browser_981232.png" alt=""></th>
                 <td><p title="Programação Orientada a Objeto" class="public-sans-texto--bold">POO</p></td>
             </tr>
-            <tr>
 
-
-
-            </tr>
         </tbody>
         </table>
 
+        <!-- Seção "Mina Jornada" -->
+        <section>
         <h2 class="public-sans-subtitulo">Minha Jornada</h2>
+        <!-- Div para ajustar as minhas listas -->
         <div class="container-jornada" style="display: flex; justify-content: center;">
+            <!-- Lista não ordenada das minhas experiências -->
         <ul style="width: 30%;">
-            <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2022-2023)</h3></li>
+            <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2023-2024)</h3></li>
             <dl>
                 <p class="public-sans-texto" style="text-align: justify; ">Nos primeiros semestres do Senai desenvolvimento de sistemas, fizemos um site  chamado de EventHub.
                 Esse site continha telas de cadastro e login funcionais atrelados ao SQL por meio de uma chave do banco de dados, onde em sua interface, era possível ver os eventos de uma empresa, quando eles ocorriam e se o usuário estava cadastrado nos eventos ou não, utilizamos muito o swagger para construir os métodos do site.
@@ -89,14 +96,16 @@
                 <dl><p class="public-sans-texto" style="text-align: start;">-JavaScript, HTML, SQL, C# e CSS</p></dl>
                 
         </ul>
+        <!-- Lista não ordenada das minhas experiências -->
         <ul style="width: 30%;">
-            <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2023-2024)</h3></li>
+            <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2024-2025)</h3></li>
             <dl>
                 <p class="public-sans-texto" style="text-align: justify; ">Neste período fomos introduzidos ao React e React-Native, criamos uma aplicação denominada “Vitalhub” que consistia em um aplicativo para uma clínica médica imaginária onde todos os atendimentos seriam controlados por ele, incluindo: horário da consulta, local da consulta e como chegar, sistema de cadastro com foto e usuário único, prontuário, descrição médica, ficha médica, calendário e etc.
                 </p></dl>
                 <li><p class="public-sans-texto--bold" style="width: auto; margin-top: 60px;">Competências utilizadas:</p></li>
                 <dl><p class="public-sans-texto" style="text-align: start;">-React-Native, React, CSS, JavaScript, C#, <abbr title="Programação Orientada a Objeto" style="text-decoration: none;font-weight: bold;">POO</abbr>, ASP.NET, .NET FRAMEWORK , Visual Studio IDE e Apis externas</p></dl>
         </ul>
+        <!-- Lista não ordenada das minhas experiências -->
         <ul style="width: 30%;">
             <li><h3 class="public-sans-experiencia" style="text-align: start;">Ciência da Computação (2025-2028)</h3></li>
             <dl>
@@ -112,7 +121,7 @@
 
 
    
-    
+</section>
     
     <footer></footer>
     
