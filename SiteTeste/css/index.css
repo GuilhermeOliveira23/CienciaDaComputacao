@@ -6,9 +6,13 @@
 @media screen and (max-width: 992px) {
 
 
-
-
-
+  .minha-jornada-desktop{
+    display: none;
+  }
+  .header-desktop{
+    display: none;
+  }
+  
 /* Html e body */
 
 
@@ -154,8 +158,8 @@ text-decoration: none;
 }
 
 .tabelaIcones{
-  width: 35%;
-  margin-left: 20%;
+  width: 100%;
+  margin-left: 5%;
 }
 
 
@@ -179,8 +183,28 @@ hr{
 
 @media screen and (min-width: 992px){
 
-
-
+.minha-jornada-mobile{
+  display: none;
+}
+.navigation-box{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+  padding-left: 20px;
+  justify-content: start;
+  align-items: center;
+  background-color: goldenrod;
+}
+.navigation-bar{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  /* border: 2px solid black; */
+}
 /* Html e body */
 
 
@@ -197,7 +221,7 @@ html,body{
 
 .public-sans-titulo {
     font-family: "Public Sans", sans-serif;;
-    font-optical-sizing: auto;
+    z-index: 0;
     font-style: normal;
     text-align: center;
     justify-content: center;
@@ -243,7 +267,15 @@ html,body{
 
 }
 
+.public-sans-texto--header{
 
+  font-family: "Public Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color: black;
+
+}
 /* Containers */
 
 
@@ -308,7 +340,7 @@ height: 100%;
   font-size: 80px;
 }
 .imagemDeFundo{
-  
+  z-index: 1;
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -326,8 +358,8 @@ text-decoration: none;
 }
 
 .tabelaIcones{
-  width: 35%;
-  margin-left: 35%;
+  width: 50%;
+  margin-left: 29%;
 }
 
 

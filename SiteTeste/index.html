@@ -10,8 +10,27 @@
     <title>Currículo</title>
     
 </head>
+
 <body>
-    
+    <header class="header-desktop">
+        <div class="navigation-box" style="display: flex;">
+            
+            <nav class="navigation-bar">
+                <p class="public-sans-texto--header">Contatos:   </p>
+                <abbr title="Email"><a href="mailto:olivergozzi@gmail.com"><img src="./images/gmail.png" alt="Meu Email" width="30px" height="30px"></a></abbr>
+               <abbr title="Github"> <a href="https://github.com/GuilhermeOliveira23"><img src="./images/github2.png" alt="Minha página do github" width="30px" height="30px"></a></abbr>
+                <abbr title="tel:+55 11 94249-0823"><img src="./images/telephone-call.png" alt="Meu telefone: 11 942490823" width="30px" height="30px" style="margin-right: 30px;"></abbr>
+            </nav>
+            <div style="height: auto; width: 50%; display: flex; align-items: center; justify-content: center; margin-left: 2.0%;">
+                <p class="public-sans-texto">Site sob autoria de Guilherme Gozzi Oliveira</p>
+            </div>
+            <div style="height: auto; width: 30%; display: flex; align-items: center; justify-content: center;">
+                <a class="ancora-header" href="https://vercel.com" style="text-decoration: underline black 1px;"><p  class="public-sans-texto" style="width: fit-content;">Hospedado por Vercel </p></a>
+            </div>
+            
+        </div>
+
+    </header>
 
 
     <div class="imagemDeFundo">
@@ -80,12 +99,13 @@
         </tbody>
         </table>
 
-        <!-- Seção "Mina Jornada" -->
-        <section>
+        <!-- Seção "Mina Jornada"  Para desktop-->
+        <section class="minha-jornada-desktop">
         <h2 class="public-sans-subtitulo">Minha Jornada</h2>
         <!-- Div para ajustar as minhas listas -->
-        <div class="container-jornada" style="display: flex; justify-content: center;">
+        
             <!-- Lista não ordenada das minhas experiências -->
+        <div class="container-jornada" style="display: flex; justify-content: center;">
         <ul style="width: 30%;">
             <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2023-2024)</h3></li>
             <dl>
@@ -121,9 +141,51 @@
 
 
    
-</section>
+        </section>
+
+        <section class="minha-jornada-mobile" style="padding-bottom: 30px;">
+
+            <h2 class="public-sans-subtitulo">Minha Jornada</h2>
+        <!-- Div para ajustar as minhas listas -->
+        
+            <!-- Lista não ordenada das minhas experiências -->
+        <ul style="width: 100%;">
+            <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2023-2024)</h3></li>
+            <dl>
+                <p class="public-sans-texto" style="text-align: justify; ">Nos primeiros semestres do Senai desenvolvimento de sistemas, fizemos um site  chamado de EventHub.
+                Esse site continha telas de cadastro e login funcionais atrelados ao SQL por meio de uma chave do banco de dados, onde em sua interface, era possível ver os eventos de uma empresa, quando eles ocorriam e se o usuário estava cadastrado nos eventos ou não, utilizamos muito o swagger para construir os métodos do site.
+                </p></dl>
+                <li><p class="public-sans-texto--bold" style="width: auto; margin-top: 50px;">Competências utilizadas: </p></li>
+                <dl><p class="public-sans-texto" style="text-align: start;">-JavaScript, HTML, SQL, C# e CSS</p></dl>
+                
+        </ul>
+        <!-- Lista não ordenada das minhas experiências -->
+        <ul style="width: 100%;">
+            <li><h3 class="public-sans-experiencia" style="text-align: start;">Análise e Desenvolvimento de sistemas (2024-2025)</h3></li>
+            <dl>
+                <p class="public-sans-texto" style="text-align: justify; ">Neste período fomos introduzidos ao React e React-Native, criamos uma aplicação denominada “Vitalhub” que consistia em um aplicativo para uma clínica médica imaginária onde todos os atendimentos seriam controlados por ele, incluindo: horário da consulta, local da consulta e como chegar, sistema de cadastro com foto e usuário único, prontuário, descrição médica, ficha médica, calendário e etc.
+                </p></dl>
+                <li><p class="public-sans-texto--bold" style="width: auto; margin-top: 60px;">Competências utilizadas:</p></li>
+                <dl><p class="public-sans-texto" style="text-align: start;">-React-Native, React, CSS, JavaScript, C#, <abbr title="Programação Orientada a Objeto" style="text-decoration: none;font-weight: bold;">POO</abbr>, ASP.NET, .NET FRAMEWORK , Visual Studio IDE e Apis externas</p></dl>
+        </ul>
+        <!-- Lista não ordenada das minhas experiências -->
+        <ul style="width: 100%; height: auto;">
+            <li><h3 class="public-sans-experiencia" style="text-align: start;">Ciência da Computação (2025-2028)</h3></li>
+            <dl>
+                <p class="public-sans-texto" style="text-align: justify; ">Projetos de Ciência da Computação envolvendo: Aplicações Para a Internet, Programação de Computadores, Organização e Arquitetura de Computadores e Pensamento Computacional. </p>
+            </dl>
+            
+            <li><p class="public-sans-texto--bold" style="width: auto; margin-top: 110px;">Competências utilizadas:</p></li>
+            <dl><p class="public-sans-texto" style="text-align: start;">-Python, HTML, CSS, JavaScript...</p></dl>
+        
+        </ul>
+
     
-    <footer></footer>
+
+        </section>
+    
+    
+    
     
 </body>
 </html>
