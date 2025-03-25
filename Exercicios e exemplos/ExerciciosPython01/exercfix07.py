@@ -5,7 +5,7 @@ notas = np.zeros(3)
 
 for i in range(3) :
     
-    notas[i] = float(input(f"Insira a sua nota do {(i +1):.0f} semestre: \n "))
+    notas[i] = float(input(f"Insira a sua nota do {(i +1):.0f}º semestre: \n "))
 
 media = np.mean(notas)
 
