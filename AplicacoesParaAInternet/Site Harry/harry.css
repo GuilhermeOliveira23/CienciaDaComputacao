@@ -1,0 +1,29 @@
+html,body{
+background-color:#1E3F66;
+margin: 0;
+}
+
+
+.container-imagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.texto{
+text-align: justify;
+background-color: #528AAE;
+width: 100%;
+}
+a{
+text-decoration: none;
+color: white;
+
+}
+h1{
+    color: #D2122E;
+}
+h2{
+    text-align: center;
+    color: goldenrod;
+}

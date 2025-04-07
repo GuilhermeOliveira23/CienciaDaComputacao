@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
+
+
+.imagem{
+
+background-image: url("./bonbonjames.jpg") ;
+width: 1400px;
+height: 950px;
+
+}
+.lebronjames{
+font-weight: bold;
+text-align: center;
+font-family: "Emblema One", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+.lebron{
+width: 40px;
+height: 40px;
+
+}
