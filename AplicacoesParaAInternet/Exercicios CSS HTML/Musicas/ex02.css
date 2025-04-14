@@ -1,0 +1,23 @@
+*{
+    
+}
+
+body{
+
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+.titulo{
+
+    font-weight: bold;
+}
+ul > li#destaque{
+
+background-color: blanchedalmond;
+}
+
+li{
+    width: fit-content;
+}
