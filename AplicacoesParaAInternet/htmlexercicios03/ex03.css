@@ -1,0 +1,10 @@
+#caixa-colorida{
+display: flex;
+background-color: rgba(255, 99, 71, 0.7);
+background-image:   linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%);
+width: 100%;
+height: 40px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
