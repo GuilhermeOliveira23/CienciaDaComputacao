@@ -1,0 +1,17 @@
+body{background-color: navajowhite;}
+
+
+.carta{
+    background-color: white;
+    position: absolute;
+    width: auto;
+}
+.carta-box{
+    position: absolute;
+    top: 60%;
+    
+}
+.coruja{
+    position: relative;
+    top: 250px;
+}

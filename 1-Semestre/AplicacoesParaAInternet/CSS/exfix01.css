@@ -1,0 +1,29 @@
+html { box-sizing: border-box;
+background-color: beige;
+height: 100%;
+width: 100%; }
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+*, *::before, *::after { box-sizing: inherit;}
+
+div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10%;
+    padding: 20px;
+    margin: 15px;
+}
+.luke{
+    background-color: rgb(0, 195, 255);
+    
+}
+.vader{
+    background-color: red;
+}
+.leia{
+    background-color: white;
+}

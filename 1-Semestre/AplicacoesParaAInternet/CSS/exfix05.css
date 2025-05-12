@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid; /* Ativa o leiaute em grid */
+
+    /* Cria 3 colunas de tamanhos iguais */
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* Cria 2 linhas com 150px de altura */
+    grid-template-rows: 150px 150px;
+
+    /* Espaçamento entre colunas e linhas */
+    gap: 10px;
+
+    background-color: #f9f9f9;
+    padding: 10px;
+    ;
+  }
+  /* GRID ITEMS */
+  .item {
+    background-color: #3f51b5;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Item que ocupa 2 colunas */
+  .item-destaque {
+    grid-column: span 2; /* Ocupa duas colunas */
+    background-color: #e91e63;
+  }
