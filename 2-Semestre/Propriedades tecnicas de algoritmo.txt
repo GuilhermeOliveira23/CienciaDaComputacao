@@ -1,0 +1,11 @@
+1componente variável - armazena dados na tabela da G.RAM(bits)- mapeia em endereços de memoria
+caracterizar: ID - nome ; tipo(numérico e caracter), tamanho.
+2 operadores: matemáticos e lógicos
+3 operador: condicional
+4 componente: comandos de repetição
+5 componente: classificar
+Procedimento(main())
+	nunca retorna resultado
+	return 0
+
+	ou seja, se tem return 0 é procedimento.
