@@ -1,8 +1,12 @@
 1componente variável - armazena dados na tabela da G.RAM(bits)- mapeia em endereços de memoria
 caracterizar: ID - nome ; tipo(numérico e caracter), tamanho.
-2 operadores: matemáticos e lógicos
+simples - uma informação
+composta - + de uma informação
+2 operadores(processador): matemáticos e lógicos
 3 operador: condicional
 4 componente: comandos de repetição
+equanto/faça(while)
+para/faça(for)
 5 componente: classificar
 Procedimento(main())
 	nunca retorna resultado
