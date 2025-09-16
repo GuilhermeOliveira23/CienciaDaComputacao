@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar C",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Executar C",
+            "type": "shell",
+            "command": "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        },
+        {
+            "label": "Compilar e Executar",
+            "dependsOn": [
+                "Compilar C",
+                "Executar C"
+            ],
+            "dependsOrder": "sequence"
+        }
+    ]
+}

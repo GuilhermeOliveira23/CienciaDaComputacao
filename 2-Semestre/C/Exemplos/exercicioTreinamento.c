@@ -7,16 +7,16 @@ float valorTotal;
 char rep;
 int cont = 0;
 while(cont==0){
-printf("Qual é o preço do rótulo?\n");
+printf("Qual eh o preco do rotulo?\n");
 scanf("%f",&valorUnitario);
-printf("Quantos rótulos você quer comprar?\n");
+printf("Quantos rotulos voce quer comprar?\n");
 scanf("%d",&qntRotulos);
 
 valorTotal = valorUnitario * qntRotulos;
 if(qntRotulos >= 100)
 valorTotal *= 0.75;
 
-printf("Olha só o valor total: %.2f\n",valorTotal);
+printf("Olha o valor total: %.2f\n",valorTotal);
 printf("Deseja continuar?(s/n)\n");
 scanf(" %c",&rep);
 if(rep == 'n')
